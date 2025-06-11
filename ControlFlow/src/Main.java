@@ -55,11 +55,10 @@ public class Main {
         }
         //factorial
         int factorial = 1;
-        int number = 7;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= 7; i++) {
             factorial *= i;
         }
-        System.out.println("Factorial dari " + number + " adalah: " + factorial);
+        System.out.println("Hasil factorial: " + factorial);
 
     }
 
