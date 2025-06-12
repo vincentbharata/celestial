@@ -1,5 +1,7 @@
 package com.example.bookapi.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -11,6 +13,9 @@ public class Book {
   private Long id;
 
   private String title;
+
+  @JsonProperty("author")
   private String author;
+
   private Integer year;
 }
