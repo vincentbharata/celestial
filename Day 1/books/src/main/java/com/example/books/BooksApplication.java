@@ -32,4 +32,5 @@ public class BooksApplication {
 	public String deleteBook(@PathVariable String id) {
 		return String.format("Book with ID %s removed", id);
 	}
+
 }
